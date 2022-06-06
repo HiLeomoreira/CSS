@@ -7,7 +7,7 @@
  - Imagens 
  - HTML (_com o esqueleto da página_)
 
-#### Primera versão (_V 2.0_)
+#### Versão _V 2.0_
  - **Arquivos adicionados**
  - Readme.md (_da verrsão_)
  - Prints: imagem de refenrência e resultado final
