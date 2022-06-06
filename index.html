@@ -15,36 +15,41 @@
 </head>
 
 <body>
-    <Header>
-        <img src="img/Smartphone.png" alt="">
-    </Header>
     <main>
-        <section class="login">
-            <img src="img/lgoo.png" alt="Logo do instagram">
-            <form>
-                <input type="text" name="txtb_login" id="txtb_login">
-                <input type="password" name="txtb_password" id="txtb_password">
-                <button>Entrar</button>
-            </form>
-            <div>
-                <p></p>
-                <p>ou</p>
-                <p></p>
-            </div>
-            <div>
-                <p><img src="https://i0.wp.com/www.telesintese.com.br/wp-content/uploads/2016/09/facebook-flat-vector-logo-400x400.png?fit=400%2C400&ssl=1" alt="Logo do FaceBook" width="16px"> Entrar com o Facebook?</p>
-                <p>Esqueceu senha</p>
-            </div>
+        <section id="img_app">
+            <img src="img/Smartphone.png" alt="">
         </section>
-        <section class="cadastro">
-            <p>Não tem conta? Cadastre-se</p>
-        </section>
-        <section>
-            <p>Obtenha o aplicativo</p>
-            <div>
-                <img src="img/AppStore.png" alt="Baixar o aplicativo na App Store">
-                <img src="img/GooglePlay.png" alt="Baixar o aplicativo no Google Play">
-            </div>
+        <section id="conteudo">
+            <section id="login" class="login">
+                <div id="logo">
+                    <img src="img/lgoo.png" alt="Logo do instagram">
+                </div>
+                <div id="form_login">
+                    <input type="text" name="txtb_login" id="txtb_login" class="textbox">
+                    <input type="password" name="txtb_password" id="txtb_password" class="textbox">
+                    <button id="entrar">Entrar</button>
+                </div>
+                <div id="align_ou">
+                    <p class="linha"></p>
+                    <p>ou</p>
+                    <p class="linha"></p>
+                </div>
+                <div id="login_facebook">
+                    <p><img src="https://i0.wp.com/www.telesintese.com.br/wp-content/uploads/2016/09/facebook-flat-vector-logo-400x400.png?fit=400%2C400&ssl=1"
+                            alt="Logo do FaceBook" width="16px">   Entrar com o Facebook?</p>
+                    <p style="font-size: 10px;">Esqueceu senha</p>
+                </div>
+            </section>
+            <section id="cadastro" class="login">
+                <p>Não tem conta? Cadastre-se</p>
+            </section>
+            <section id="app">
+                <p>Obtenha o aplicativo</p>
+                <div>
+                    <img src="img/AppStore.png" alt="Baixar o aplicativo na App Store">
+                    <img src="img/GooglePlay.png" alt="Baixar o aplicativo no Google Play">
+                </div>
+            </section>
         </section>
     </main>
     <footer>

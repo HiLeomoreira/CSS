@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg_color: #fafafa;
+    --bg_login_color: white;
+    --border_color: rgb(219, 219, 219);
+
+    --font: 'Roboto', sans-serif;
+    --font_color: rgb(100, 100, 100); 
+    --font_weight: 400;
+    --font_size: 14px;
+}
+
+body {
+    background-color: var(--bg_color);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    font-family: var(--font);
+    font-weight: var(--font_weight);
+    font-size: var(--font_size);
+    color: var(--font_color);
+}
+
+main {
+    display: flex;
+    justify-content: center;    
+}
+
+.login {
+    border: 1px solid var(--border_color);
+    background-color: var(--bg_login_color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px 0px;
+}
+
+#conteudo { 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+    margin-top: 32px;
+}
+
+#login {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 350px;
+}
+
+#form_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+#align_ou {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linha {
+    border: 1px solid gray;
+    width: 60px;
+}
+
+#cadastro {
+    height: 63px;
+}
+
+#cadastre-se {
+    color: #0097F7;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login_facebook {
+    color: #385195;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.textbox {
+    background-color: var(--bg_color);
+    border: 1px solid var(--border_color);
+    border-radius: 3px;
+    height: 36px;
+    width: 268px;
+}
+
+#entrar {
+    color: white;
+    background-color: #B2DFFC;
+    border-radius: 3px;
+    border: none;
+
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}

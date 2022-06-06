@@ -6,4 +6,4 @@
  - **Arquivos adicionados**
  - Readme.md
  - Imagens 
- - HTML (_com o esqueleto da página_)
+ - HTML (_com o esqueleto da página_)   
